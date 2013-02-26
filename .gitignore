@@ -1,0 +1,6 @@
+# ignore Unity's library
+Library/*
+
+# ignore licensed libraries
+Assets/Libraries/*
+

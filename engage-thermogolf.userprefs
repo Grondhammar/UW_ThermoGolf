@@ -1,0 +1,55 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Scenes/GameScreen/0_Scripts/4_ObjectClasses/Player_Ball.cs">
+    <Files>
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/4_ObjectClasses/Constraint_Line.cs" Line="20" Column="43" />
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/2_Managers/GUIManager.cs" Line="47" Column="1" />
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/2_Managers/ConstraintManager.cs" Line="56" Column="39" />
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/0_ButtonActions/Button_EnergyHit.cs" Line="18" Column="1" />
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/2_Managers/GameMetaManager.cs" Line="57" Column="5" />
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/2_Managers/BallManager.cs" Line="146" Column="25" />
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/2_Managers/EndPointManager.cs" Line="7" Column="19" />
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/1_InterfaceClasses/BallBehaviour.cs" Line="20" Column="36" />
+      <File FileName="Assets/Resources/Scenes/GameScreen/0_Scripts/4_ObjectClasses/Player_Ball.cs" Line="27" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Scenes" expanded="True">
+                  <Node name="GameScreen" expanded="True">
+                    <Node name="0_Scripts" expanded="True">
+                      <Node name="0_ButtonActions" expanded="True" />
+                      <Node name="1_InterfaceClasses" expanded="True" />
+                      <Node name="2_Managers" expanded="True" />
+                      <Node name="3_Math" expanded="True" />
+                      <Node name="4_ObjectClasses" expanded="True">
+                        <Node name="Player_Ball.cs" selected="True" />
+                      </Node>
+                      <Node name="5_Utilities" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>localCurrScreen</Value>
+          <Value>hudPrefab</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

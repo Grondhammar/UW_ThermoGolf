@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{05599BAB-E393-DC11-A617-59BA00ED88E2}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyJoystick\Example-thirdPerson_DirectEventMode\JoystickEvent.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyJoystick\Example_FirstPerson_DirectMode\GUIFirstDirect.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-FreeCam\FreeCam.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-FreeCam\GuiCam.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-GameController\DemonController.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-GameController\GuiGameController.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-ManipulationImage\GuiPhoto.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-ManipulationImage\Photo.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-MultiLayer\GuiLayer.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-MultiLayer\TouchLayer.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-Multiplefingers\GuiMultiFinger.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-Multiplefingers\ObjectTouch.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-Multiplefingers\ScreenTouch.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-Multiplefingers\SlowRotate.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-OneFinger\DoubleTap.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-OneFinger\Drag.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-OneFinger\GuiOneFinger.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-OneFinger\LongTap.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-OneFinger\Swipe.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-OneFinger\Tap.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-OneFinger\TouchStart.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-StartMenu\GuiStartMenu.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\GuiTwoFinger.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\Pinch.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\Twist.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoDoubleTap.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoDrag.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoLongTap.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoSwipe.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoTap.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoTouchStart.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Plugins\EasyJoystick.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Plugins\EasyTouch.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Plugins\EasyTouchInput.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Plugins\EasyTouchTemplate.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Plugins\Finger.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Plugins\Gesture.cs" />
+     <Compile Include="Assets\Libraries\EasyTouch\Plugins\MovingJoystick.cs" />
+     <Compile Include="Assets\Libraries\HUD Text\Examples\Scripts\ChatManager.cs" />
+     <Compile Include="Assets\Libraries\HUD Text\Examples\Scripts\ChatParticipant.cs" />
+     <Compile Include="Assets\Libraries\HUD Text\Examples\Scripts\ColliderDisplayText.cs" />
+     <Compile Include="Assets\Libraries\HUD Text\Examples\Scripts\HUDRoot.cs" />
+     <Compile Include="Assets\Libraries\HUD Text\Examples\Scripts\LightFlicker.cs" />
+     <Compile Include="Assets\Libraries\HUD Text\Examples\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Libraries\HUD Text\Scripts\HUDText.cs" />
+     <Compile Include="Assets\Libraries\HUD Text\Scripts\UIFollowTarget.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\DownloadTexture.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\DragDropContainer.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\DragDropItem.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\DragDropRoot.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\DragDropSurface.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\SetColorOnSelection.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\ShaderQuality.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\Spin.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\TypewriterEffect.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButton.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonPlayAnimation.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonSound.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIButtonTween.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UICheckbox.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UICheckboxControlledComponent.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UICheckboxControlledObject.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIPanelAlpha.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UISlider.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UISliderColors.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\BMFont.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\BMGlyph.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\BMSymbol.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\BetterList.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\ByteReader.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\IgnoreTimeScale.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\NGUIDebug.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\NGUIMath.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\NGUITools.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\UIDrawCall.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\UIEventListener.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\UIGeometry.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\UINode.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\UIWidget.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Internal\UpdateManager.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\SpringPosition.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\TweenFOV.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\Tweening\UITweener.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIFilledSprite.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIInputSaved.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIPanel.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UISlicedSprite.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIStretch.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UITiledSprite.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\Libraries\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Libraries\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\Libraries\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Libraries\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Libraries\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\0_ButtonActions\Button_EnergyHit.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\0_ButtonActions\Button_HeatClubSelect.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\0_ButtonActions\Button_HeatWorkToggle.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\0_ButtonActions\Button_NextLevel.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\0_ButtonActions\Button_RedoLevel.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\0_ButtonActions\Button_WorkClubSelect.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\1_InterfaceClasses\BallBehaviour.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\1_InterfaceClasses\EasyTouch_FreeCam.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\1_InterfaceClasses\UI_NextLevelTrigger.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\2_Managers\BallManager.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\2_Managers\ConstraintManager.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\2_Managers\EndPointManager.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\2_Managers\GUIManager.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\2_Managers\GameMetaManager.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\2_Managers\GraphManager.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\2_Managers\MoveCounter_Manager.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\3_Math\ThermoMath.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\4_ObjectClasses\Constraint_Line.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\4_ObjectClasses\Player_Ball.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\5_Utilities\Timer.cs" />
+     <Compile Include="Assets\Resources\Scenes\GameScreen\0_Scripts\GlobalValues.cs" />
+     <Compile Include="Assets\Resources\Scenes\MainMenu\0_Scripts\Button_KillGame.cs" />
+     <Compile Include="Assets\Resources\Scenes\MainMenu\0_Scripts\Button_PlayGame.cs" />
+     <Compile Include="Assets\StandardAssets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Depth.shader" />
+     <None Include="Assets\Libraries\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Libraries\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Libraries\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Libraries\EasyTouch\Documentation\Readme_first.txt" />
+     <None Include="Assets\Libraries\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Libraries\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\StandardAssets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Libraries\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\StandardAssets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Libraries\Vectrosity\Documentation\Vectrosity changelog.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Libraries\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Libraries\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Libraries\HUD Text\ReadMe - 1.6.txt" />
+     <None Include="Assets\Libraries\NGUI\ReadMe.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Libraries\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\Libraries\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Libraries\HUD Text\Examples\Atlases\Arimo20.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (HardClip).shader" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Libraries\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\Libraries\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Libraries\HUD Text\Examples\Atlases\Large.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Libraries\Vectrosity\Documentation\Vectrosity 2.0 Upgrade Guide.txt" />
+     <None Include="Assets\Libraries\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Libraries\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+ <Reference Include="Assets\Libraries\Vectrosity\Vectrosity_Unity3">
+ <HintPath>Assets\Libraries\Vectrosity\Vectrosity_Unity3.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{6F285AAC-1933-C0FB-4F57-CD574E80FC0C}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy inheritsSet="null" scope="text/x-csharp" /><CSharpFormattingPolicy BeforeMethodDeclarationParentheses="False" AfterMethodDeclarationParameterComma="False" BeforeMethodCallParentheses="False" AfterMethodCallParameterComma="False" AfterFieldDeclarationComma="False" BeforeConstructorDeclarationParentheses="False" AfterConstructorDeclarationParameterComma="False" BeforeIndexerDeclarationBracket="False" AfterIndexerDeclarationParameterComma="False" BeforeDelegateDeclarationParentheses="False" NewParentheses="False" AfterNewParameterComma="False" SpacesBeforeBrackets="False" AfterBracketComma="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
+</Project>

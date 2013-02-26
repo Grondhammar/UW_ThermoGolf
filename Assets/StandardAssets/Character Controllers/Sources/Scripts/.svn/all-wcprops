@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/engage-thermogolf/!svn/ver/1/Assets/StandardAssets/Character%20Controllers/Sources/Scripts
+END
+ThirdPersonController.js
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/engage-thermogolf/!svn/ver/1/Assets/StandardAssets/Character%20Controllers/Sources/Scripts/ThirdPersonController.js
+END
+MouseLook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/engage-thermogolf/!svn/ver/1/Assets/StandardAssets/Character%20Controllers/Sources/Scripts/MouseLook.cs
+END
+PlatformInputController.js
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/engage-thermogolf/!svn/ver/1/Assets/StandardAssets/Character%20Controllers/Sources/Scripts/PlatformInputController.js
+END
+ThirdPersonCamera.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/engage-thermogolf/!svn/ver/1/Assets/StandardAssets/Character%20Controllers/Sources/Scripts/ThirdPersonCamera.js
+END
+FPSInputController.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/engage-thermogolf/!svn/ver/1/Assets/StandardAssets/Character%20Controllers/Sources/Scripts/FPSInputController.js
+END
+CharacterMotor.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/engage-thermogolf/!svn/ver/1/Assets/StandardAssets/Character%20Controllers/Sources/Scripts/CharacterMotor.js
+END
